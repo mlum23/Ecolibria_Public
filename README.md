@@ -8,7 +8,7 @@ Although presenting a simplified model of an urban ecosystem, EcoLibria provides
 
 
 ## Showcased at Ecocity
-This webapp was showcased at the 2019 Ecocity 2019 World Summit in Vancouver, BC.
+This webapp was showcased at the 2019 Ecocity World Summit in Vancouver, BC.
   
 ## Tech Stack
 * Phaser 3
