@@ -1,0 +1,4 @@
+load:
+  - src/ableToPlaceTile.js
+test:
+  - test/ableToPlaceTileTest.js

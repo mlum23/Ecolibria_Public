@@ -1,0 +1,152 @@
+#wrapper
+{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    padding-right: 10%;
+}
+
+.top_hud{
+    margin-left: 2.5%;
+}
+
+p
+{
+    color: #0F1B07;
+}
+
+h1, h2, h3
+{
+    font-family: Helvetica;
+    color: #0F1B07;
+}
+
+body
+{
+    font-family: Verdana;
+    background: radial-gradient(#86ac41, #9ae17b);
+}
+
+button
+{
+    background-color: forestgreen;
+}
+
+#info_button
+{
+    background-image: url("../assets/title_page/Info_button_about_us.png");
+    width: 67px;
+    height: 67px;
+}
+
+#title_button
+{
+    background-image: url("../assets/title_page/logo_button_info_page.png");
+    width: 67px;
+    height: 67px;
+}
+
+#log_in_button
+{
+    background-image: url("../assets/title_page/Login_button_info_screen.png");
+    width: 67px;
+    height: 67px;
+}
+
+#about_us_button
+{
+    background-image: url("../assets/title_page/about_us_title_screen.png");
+    width: 67px;
+    height: 67px;
+}
+
+#info_buttons
+{
+    list-style-type: none;
+    align: left;
+    padding : 0px;
+    margin: 0px;
+    border-style: ridge;
+    border-color: #0F1B07;
+    background-color: #86ac41;
+    width: 285px;
+}
+
+#error_screen_info
+{
+    list-style-type: none;
+    align: left;
+    padding : 0px;
+    margin: 0px;
+    border-style: ridge;
+    border-color: #0F1B07;
+    background-color: #86ac41;
+    width: 285px;
+}
+
+nav li
+{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+img
+{
+    border-style: ridge;
+    border-color: #0F1B07;
+    padding:0px;
+    position:center;
+}
+
+#container{
+    padding-right: 0.5%;
+    padding-left: 2.5%;
+}
+
+.bio_img{
+    text-align: center;
+}
+
+.about_us
+{
+    float: left;
+    border: 1px #0F1B07;
+    margin: 5px 10px 10px 0px;
+    width: 96px;
+    height: 96px;
+}
+
+#michael_pic{
+    width: 20%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 17%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* For the login screen */
+.firebaseui-auth-container{
+    text-align: center;
+}
+
+.firebaseui-card-container form{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    #michael_pic{
+        width: 50%;
+    }
+  }

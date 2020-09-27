@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width user-scalable=no" />
+    <title>Information</title>
+    <link rel="icon" href="assets/title_page/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./css/Stylings.css" media="screen" />
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script src="./js/database.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+
+    <style>
+        table {
+
+            width: 90%;
+        }
+
+        tr {
+            margin-right: 1000px;
+        }
+
+        td {
+            text-align: center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <img class="top_hud" alt="EcoLibria logo" src="assets/title_page/eco.png" width="75%">
+        <nav class="top_hud">
+            <ul id="info_buttons">
+                <li><button title="Title Screen" onclick="go_to_title()" type="button" id="title_button"></button></li>
+                <li><button title="Info Screen" onclick="go_to_info()" type="button" id="info_button"></button></li>
+                <li><button title="About Us" onclick="go_to_about_us()" type="button" id="about_us_button"></button>
+                </li>
+                <li><button title="Login Screen" onclick="go_to_login()" type="button" id="log_in_button"></button></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 style="text-align: center">Leaderboard</h1>
+    <table id="leaderboard">
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+    </table>
+
+    <script src="./js/button_functions.js"></script>
+    <script src="./js/get_leaderboard_scores.js"></script>
+    
+</body>
+
+</html>

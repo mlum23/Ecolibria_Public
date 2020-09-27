@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width user-scalable=no" />
+    <title>Information</title>
+    <link rel="icon" href="../assets/title_page/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./css/Stylings.css" media="screen" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <img class="top_hud" src="assets/title_page/eco.png" width="75%">
+        <nav class="top_hud">
+            <ul id="info_buttons">
+                <li><button title="Title Screen" onclick="go_to_title()" type="button" id="title_button"></button></li>
+                <li><button title="Info Screen" onclick="go_to_info()" type="button" id="info_button"></button></li>
+                <li><button title="About Us" onclick="go_to_about_us()" type="button" id="about_us_button"></button>
+                </li>
+                <li><button title="Login Screen" onclick="go_to_login()" type="button" id="log_in_button"></button></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="container">
+        <h1>EcoLibria</h1>
+        <p>
+            Our team has created a game in which we invite the user to think about what are the components of a
+            sustainable community.
+            Additionally, we hope to inspire our audience to think about how they can localize the place where they
+            actually live,
+            work, shop, or play.
+        </p>
+
+        <h2>Game Play</h2>
+        <p>
+            As the player you can design your community in any way you see fit.
+            You will hopefully design your communities in a way such that your citizens can easily move from
+            their homes to work, school, and store.
+            As a result, your community will need to drive less and emit fewer greenhouse gases.
+        </p>
+
+        <h2>Controls</h2>
+        <p>
+            To select a comunity that you want to interact with, tap anywhere within that community to zoom into
+            it.<br /><br />
+
+            To select the infrastructure you want to place in the community, select one the blue tiles.
+            Then, place it on one of the empty tiles (The cost of each tile is indicated in the section
+            below)<br /><br />
+
+            To browse through each community while zoomed in, tap on the right arrow button, located to the right of the
+            selection tiles <br /><br />
+
+            To zoom out of the current community, tap on the magnifying glass, located to the left of the selection
+            tiles.
+        </p>
+
+        <h3>Tiles</h3>
+        <p>Below are the cost to place <b>one</b> tile.</p>
+        <div class="row">
+            <div class="column">
+                <h5>Park: $100</h5>
+                <img src="./assets/in_game_buttons/tree_button.png" />
+            </div>
+            <div class="column">
+                <h5>House: $200</h5>
+                <img src="./assets/in_game_buttons/house_button.png" />
+            </div>
+            <div class="column">
+                <h5>Store: $250</h5>
+                <img src="./assets/in_game_buttons/grocery.png" />
+            </div>
+            <div class="column">
+                <h5>Hospital: $500</h5>
+                <img src="./assets/in_game_buttons/hospital.png" />
+            </div>
+            <div class="column">
+                <h5>Office: $1000</h5>
+                <img src="./assets/in_game_buttons/office.png" />
+            </div>
+        </div>
+        <h2>Money</h2>
+        In EcoLibria, every new game will start with $2000. There are two ways to gain money.
+        
+        <h3>Removing Tiles</h3>
+        <div>
+            <b style="color: red">Money gained for removing a tile: $(50% of initial cost)</b><br/><br/>
+            You are allowed to remove <b>any of the 5 tiles above</b> and get 50% of the placement cost</br>
+            <b>For example:</b> Removing an office tile will give you $500 <br/><br/>
+
+            <b>HOWEVER,</b> CO2 ppm will increase by the following values:<br/><br/>
+            <b>25ppm / deleted Park tile</b><br/><br/>
+            <b>30ppm / deleted House tile</b><br/><br/>
+            <b>33ppm / deleted Store tile</b><br/><br/>
+            <b>45ppm / deleted Hospital tile</b><br/><br/>
+            <b>75ppm / deleted Office tile</b><br/><br/>
+        </div>
+
+        <h3>Passive Income</h3>
+        <div>
+            <b style="color: red">Money gained per second: $25 x (# of office tiles associated with a house tile)</b><br/><br/>
+            To gain passive income, at least one office tile must be present on the map, along with an associated house.<br/>
+            <b>For example:</b> if you have 1 house and 2 office tiles on the map, you will only receive the benefit of one office because there is only 1 house.
+            That is, you will receive <b>$25/second</b> <br/><br/>
+        </div>
+
+        <h2>Credits</h2>
+        <p>
+            Icons were created by Freepik at www.flaticon.com
+        </p>
+    </div>
+
+    <script src="./js/button_functions.js"></script>
+</body>
+
+</html>

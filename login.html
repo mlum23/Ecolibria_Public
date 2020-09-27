@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/Stylings.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    
+    <title>Login</title>
+    <link rel="icon" href="assets/title_page/favicon.png" type="image/x-icon" />
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <img src="assets/title_page/eco.png" alt="EcoLibria logo" width="75%">
+        <nav>
+            <ul id="info_buttons">
+                <li><button title="Title Screen" onclick="go_to_title()" type="button" id="title_button"></button></li>
+                <li><button title="Info Screen" onclick="go_to_info()" type="button" id="info_button"></button></li>
+                <li><button title="About Us" onclick="go_to_about_us()" type="button" id="about_us_button"></button>
+                </li>
+                <li><button title="Login Screen" onclick="go_to_login()" type="button" id="log_in_button"></button></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- The surrounding HTML is left untouched by FirebaseUI.
+     Your app may use that space for branding, controls and other customizations.-->
+            <h1>Login</h1>
+            <div id="firebaseui-auth-container"></div>
+            <div id="loader">Loading...</div>
+
+            <script src="./js/login.js"></script>
+            <script src="./js/button_functions.js"></script>
+            <script src="./js/create_user.js"></script>
+        </main>
+    </div>
+</body>
+
+</html>
