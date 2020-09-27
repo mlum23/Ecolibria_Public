@@ -1,5 +1,6 @@
 # EcoLibria 
 Demo: http://mlum23.github.io/ecolibria  
+Part of the Projects 2 course at BCIT
 
 # About
 EcoLibria is a web-based game in which the player assumes responsibility for the creation and maintenance of an ecologically sustainable community. The player’s primary objective is to reduce carbon emissions produced by traffic, industry, demolition, and creation of city infrastructure; carbon sinks, such as urban landscapes and parks, are also a component of game play.  
