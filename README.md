@@ -31,7 +31,7 @@ This webapp was showcased at the 2019 Ecocity 2019 World Summit in Vancouver, BC
 
 ## Images of Game
 
-![Welcome Page](https://github.com/mlum23/hangman/blob/master/img/welcome.png?raw=true)  
-![Overall Map](https://github.com/mlum23/hangman/blob/master/img/overall.png?raw=true)  
-![Zoomed In](https://github.com/mlum23/hangman/blob/master/img/zoomed_in.png?raw=true)  
-![Detail](https://github.com/mlum23/hangman/blob/master/img/detail.png?raw=true)  
+![Welcome Page](https://github.com/mlum23/Ecolibria_Public/blob/master/img/welcome.png?raw=true)  
+![Overall Map](https://github.com/mlum23/Ecolibria_Public/blob/master/img/overall.png?raw=true)  
+![Zoomed In](https://github.com/mlum23/Ecolibria_Public/blob/master/img/zoomed_in.png?raw=true)  
+![Detail](https://github.com/mlum23/Ecolibria_Public/blob/master/img/detail.png?raw=true)  
