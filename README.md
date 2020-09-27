@@ -29,7 +29,7 @@ This webapp was showcased at the 2019 Ecocity World Summit in Vancouver, BC.
 * View what is on the map
 * View current CO2 ppm
 
-## Images of the game
+## Images from the Game
 
 ![Welcome Page](https://github.com/mlum23/Ecolibria_Public/blob/master/img/welcome.png?raw=true)  
 ![Overall Map](https://github.com/mlum23/Ecolibria_Public/blob/master/img/overall.png?raw=true)  
